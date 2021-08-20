@@ -13,6 +13,7 @@ from datetime import date
 stockSymbol = ['GOOGL', 'MSFT', 'RDS-A', 'AIG', 'FB']        
 
 # gets live price using the yahoo_fin library calling the API
+today = date.today()
 print("Today's Date: " + today.strftime("%m/%d/%y") + "\n" + ('-' * 25))
 for stock in stockSymbol:
     liveprice = round(si.get_live_price(stock),2)
