@@ -1,3 +1,9 @@
+"""
+Author: Chris Kopec
+Date: 8/21/2021
+Description: Using yahoo_fin API to get real-time stock data and graph it through matplotlib
+"""
+
 import yahoo_fin.stock_info as si
 import matplotlib.pyplot as plt
 from datetime import date
